@@ -1,0 +1,18 @@
+h1{
+    margin: 0;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+$main-color:#170F23;
+$main-color-text:rgba(240, 248, 255, 0.674);
+$main-color-header:hsla(0, 0%, 100%, 0.1);
+
+@mixin flexbox ($display, $justify, $align){
+    display:$display;
+    justify-content:$justify ;
+    align-items: $align;
+}

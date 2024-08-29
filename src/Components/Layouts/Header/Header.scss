@@ -1,0 +1,179 @@
+@import '/src/styles/base.scss';
+
+//css genaral styles
+@mixin btn-header-style {
+    font-size: 14px;
+    background: transparent;
+    line-height: normal;
+    border: 0;
+    display: inline-block;
+    font-weight: 400;
+    text-transform: none;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+//css header
+.header-container-all{
+    @include flexbox(flex,space-between,center);
+    height: 70px;
+    width: calc( 100% - 369px); 
+    position: fixed; 
+    left: 240px; 
+    top: 0; 
+    right: 0; 
+    z-index:100;
+    min-width: 660px; 
+    transition: right .4s; 
+    padding: 0 59px;
+    background-color: $main-color;
+}
+
+.content{
+    padding: 100px;
+}
+
+.level{
+    @include flexbox(flex,space-between,center);
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    .level-left{
+        margin-right: 10px;
+        display: flex;
+        height: 40px; 
+        width: auto; 
+        flex-grow: 1;
+        @include flexbox(flex,flex-start,center);
+        .arrow-back, .arrow-forward {
+            margin-top: 5px;
+            margin-right: 7px;
+            @include btn-header-style;
+        }
+    }
+}
+///form search
+.search{
+    height: 40px;
+    width: 100%; 
+    max-width: 440px;
+    .search__container{
+        position: relative;
+        border-radius: 20px;
+        height: 40px;
+        @include flexbox (flex,flex-start,center);
+        background-color:$main-color-header;
+        .search-btn{
+            @include flexbox(flex,flex-start,center);
+            border-radius: 999px;
+            @include btn-header-style;
+        }
+    }
+    .input-wrapper {
+        @include flexbox (flex,flex-start,center);
+        position: absolute;
+        top: 0px;
+        left: 38px;
+        right: 10px;
+        bottom: 0;
+        .input-placeholder{
+            margin: 0;
+            outline: none;
+            border: none;
+            background-color: transparent;
+            display: inline-block;
+            width: 95%;
+            font-size: 14px;
+            color: #eee;
+            background-clip: padding-box;
+            border: 0;
+            position: relative;
+            top: 0px;
+            height: 34px;
+            line-height: 34px;
+        }
+    }
+}
+
+///header right
+.level-right{
+    @include flexbox (flex, flex-end, center);
+    .header-upgrade-vip-button{
+        margin-right: 12px;
+        padding: 10px 20px;
+        border-radius: 100px;
+        background-color: #8E46CD;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: .1px;
+    }
+    .download-desktop-app{
+        @include flexbox (flex, center, center);
+        margin-right: 12px;
+        background-color: $main-color-header;
+        color: #8E46CD;
+        border-radius: 999px;
+        position: relative;
+        .download-btn{
+            padding: 10px 13px;
+            font-weight: 600;
+        }
+    }
+    .btn-setting{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 999px;
+        @include btn-header-style;
+        background: $main-color-header;
+    }
+}
+//btn setting
+.setting-item{
+    position: relative;
+    margin-right: 10px;
+    @include flexbox (flex, center, center);
+    
+}
+//btn download
+.dowload-content{
+    @include flexbox (flex, center, center);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: .1px;
+}
+//css user
+.user-setting{
+    position: relative;
+    width: 38px;
+    height: 38px;
+    .avatar-frame{
+        border-radius: 999px;
+        width: 38px;
+        height: 38px;
+        --circle-color: transparent;
+        .btn-avatar{
+            width: 38px;
+            border: none;
+            padding: 0;
+            height: 38px;
+            line-height: unset;
+            background-color: transparent;
+            .avatar{
+                width: 38px;
+                height: 38px;
+                overflow: hidden;
+                border-radius: 999px !important;
+            }
+        }
+    }
+}
+
+
+
