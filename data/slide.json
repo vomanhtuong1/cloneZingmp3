@@ -210,7 +210,226 @@
     ],
     "ablumhot": [
         {
-            "id": 1
+            "id": "1",
+            "title": "Lúc Em Cần Anh Đang Ở Đâu",
+            "singer": "Bảo Uyên, RIN9, DREAMMER",
+            "path": "assets/images/AblumHot/song1.png",
+            "src": "assets/audio/audio15.mp3"
+        },
+        {
+            "id": "2",
+            "title": "Cô Ấy",
+            "singer": "Sing",
+            "path": "assets/images/AblumHot/song2.png",
+            "src": "assets/audio/audio14.mp3"
+        },
+        {
+            "id": "3",
+            "title": "Nói dối",
+            "singer": "MiQ & Catcheller",
+            "path": "assets/images/newlyReleased/new3.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "4",
+            "title": "Đừng nói là...",
+            "singer": "Ali Hoàng Dương",
+            "path": "assets/images/newlyReleased/new4.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "5",
+            "title": "Đi tìm tình yêu",
+            "singer": "Mono & 2pillz",
+            "path": "assets/images/newlyReleased/new5.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "6",
+            "title": "Khóa Chân",
+            "singer": "24k right, Mason Nguyễn, Nam Cocain, V.A",
+            "path": "assets/images/newlyReleased/new6.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "7",
+            "title": "Bóng Hồng Lẻ Loi",
+            "singer": "Han Sara",
+            "path": "assets/images/newlyReleased/new9.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "8",
+            "title": "Chỉ Đi Đến Đây Thôi",
+            "singer": "Vũ Thịnh & VIAM",
+            "path": "assets/images/newlyReleased/new10.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "9",
+            "title": "Ngốc Mới Khóc Một Mình",
+            "singer": "Đạt Long Vinh",
+            "path": "assets/images/newlyReleased/new11.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "10",
+            "title": "Luật Hấp Dẫn",
+            "singer": "Minh Đinh",
+            "path": "assets/images/newlyReleased/new12.png",
+            "src": "assets/audio/audio3.mp3"
+        }
+    ],
+    "doitac": [
+        {
+            "id": "1",
+            "title": "MTP ENTERTAIMENT",
+            "src": "assets/images/slideShow/partner/doitac1.png"
+        },
+        {
+            "id": "2",
+            "title": "EMPIRE ENTERTAIMENT",
+            "src": "assets/images/slideShow/partner/doitac2.png"
+        },
+        {
+            "id": "3",
+            "title": "BELIEVE",
+            "src": "assets/images/slideShow/partner/doitac3.png"
+        },
+        {
+            "id": "4",
+            "title": "SM ENTERTAIMENT",
+            "src": "assets/images/slideShow/partner/doitac4.png"
+        },
+        {
+            "id": "5",
+            "title": "MONSTER CAT",
+            "src": "assets/images/slideShow/partner/doitac5.png"
+        },
+        {
+            "id": "6",
+            "title": "SONY MUISIC",
+            "src": "assets/images/slideShow/partner/doitac6.png"
+        },
+        {
+            "id": "7",
+            "title": "UNIVERSAL",
+            "src": "assets/images/slideShow/partner/doitac7.png"
+        },
+        {
+            "id": "8",
+            "title": "KAKAO ENTERTAIMENT",
+            "src": "assets/images/slideShow/partner/doitac8.png"
+        }
+    ],
+    "zingchart": [
+        {
+            "id": "1",
+            "title": "Là Tại Anh Sai",
+            "singer": "Châu Khải Phong",
+            "time": "4:00",
+            "view": "0",
+            "path": "assets/images/newlyReleased/new1.png",
+            "src": "assets/audio/audio1.mp3"
+        },
+        {
+            "id": "2",
+            "title": "Thờ Ơ",
+            "singer": "Châu Khải Phong",
+            "time": "4:00",
+            "view": "0",
+            "path": "assets/images/newlyReleased/new2.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "3",
+            "title": "Nói dối",
+            "singer": "MiQ & Catcheller",
+            "time": "4:00",
+            "view": "0",
+            "path": "assets/images/newlyReleased/new3.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "4",
+            "title": "Đừng nói là...",
+            "singer": "Ali Hoàng Dương",
+            "time": "4:00",
+            "view": "0",
+            "path": "assets/images/newlyReleased/new4.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "5",
+            "title": "Đi tìm tình yêu",
+            "singer": "Mono & 2pillz",
+            "time": "4:00",
+            "view": "0",
+            "path": "assets/images/newlyReleased/new5.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "6",
+            "title": "Khóa Chân",
+            "singer": "24k right, Mason Nguyễn, Nam Cocain, V.A",
+            "time": "4:00",
+            "view": "0",
+            "path": "assets/images/newlyReleased/new6.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "7",
+            "title": "Giấc ngủ dài hạn",
+            "singer": "Khiem",
+            "time": "4:00",
+            "view": "0",
+            "path": "assets/images/newlyReleased/new7.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "8",
+            "title": "Bát Cơm Mặn",
+            "singer": "Orange & New Amazing",
+            "time": "4:00",
+            "view": "0",
+            "path": "assets/images/newlyReleased/new8.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "9",
+            "title": "Bóng Hồng Lẻ Loi",
+            "singer": "Han Sara",
+            "time": "4:00",
+            "view": "0",
+            "path": "assets/images/newlyReleased/new9.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "10",
+            "title": "Chỉ Đi Đến Đây Thôi",
+            "singer": "Vũ Thịnh & VIAM",
+            "time": "4:00",
+            "view": "0",
+            "path": "assets/images/newlyReleased/new10.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "11",
+            "title": "Ngốc Mới Khóc Một Mình",
+            "singer": "Đạt Long Vinh",
+            "time": "4:00",
+            "view": "0",
+            "path": "assets/images/newlyReleased/new11.png",
+            "src": "assets/audio/audio3.mp3"
+        },
+        {
+            "id": "12",
+            "title": "Luật Hấp Dẫn",
+            "singer": "Minh Đinh",
+            "time": "4:00",
+            "view": "0",
+            "path": "assets/images/newlyReleased/new12.png",
+            "src": "assets/audio/audio3.mp3"
         }
     ]
 }

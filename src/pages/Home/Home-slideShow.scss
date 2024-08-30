@@ -1,0 +1,28 @@
+@import '/src/styles/base.scss';
+
+
+.container-all{
+    width: 100%;
+}
+.slide{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    .slide-item-container{
+        padding-top: 32px;
+    }
+    .slide-itemsr{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        position: relative;
+        transform-style: preserve-3d;
+        perspective: 1000px;
+        margin: 0 -15px 20px;
+        transition: height .2s;
+    }
+}
+
+.btn-prev{
+    background-color: $main-color-header;
+}

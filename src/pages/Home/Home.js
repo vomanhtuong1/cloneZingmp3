@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
+import { ArrowBackIos, ArrowForwardIos } from '@mui/icons-material';
+import './Home-slideShow.scss';
 
 function Home() {
     const [slide, setSlide] = useState([]);
@@ -8,7 +9,7 @@ function Home() {
     useEffect(() => {
         const fetchData
             = async () => {
-                const response = await fetch('http://localhost:3001/slide'); // Thay thế bằng địa chỉ API của bạn
+                const response = await fetch(slideApi); // Thay thế bằng địa chỉ API của bạn
                 const data = await response.json();
                 setSlide(data);
             };
@@ -17,17 +18,39 @@ function Home() {
     }, []);
 
     return (
-        <div>
-            <h1>Danh sách sản phẩm</h1>
-            <ul>
-                {slide.map((intro) => (
-                    <li key={intro.id}>
-                        <img src={intro.path} alt={intro.title} />
-                        <h3>{intro.title}</h3>
-                    </li>
-                ))}
-            </ul>
+        <div className='container-all' style={{ background: "blue" }}>
+            <div className='slide'>
+                <div className='slide-item-container'>
+                    <div className='slide-items'>
+                        <div className="slide-prev">
+                            <button className="btn-prev" tabIndex="0">
+                                <ArrowBackIos />
+                            </button>
+                        </div>
+                        {slide.map((intro, index) => (
+                            <div key={index} className='slide-item'>
+                                <div className="gallery-item gallery-item-first">
+                                    <div className="zm-card">
+                                        <a title={intro.title} href="/">
+                                            <div className="zm-card-image">
+                                                <figure className="image is-48x48">
+                                                    <img src={intro.path} alt={intro.title} />
+                                                </figure>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div >
+                            </div >))}
+                        <div className="slide-next">
+                            <button className="btn-next" tabIndex="0">
+                                <ArrowForwardIos />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
     );
 }
 
