@@ -3,9 +3,13 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import publicRoute from './route';
 import Layouts from './Components/Layouts';
+import './'
 
 function App() {
+
   return (
+
+
     <Router>
       <div className="App">
         <Routes>

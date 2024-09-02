@@ -19,6 +19,21 @@
             "id": "4",
             "title": "Nhạc Trẻ Gây Nghiện",
             "path": "assets/images/slideShow/introdution/slide-img4.png"
+        },
+        {
+            "id": "5",
+            "title": "Nhạc Trẻ Gây Nghiện",
+            "path": "assets/images/slideShow/introdution/intro1.png"
+        },
+        {
+            "id": "6",
+            "title": "Nhạc Trẻ Gây Nghiện",
+            "path": "assets/images/slideShow/introdution/intro2.png"
+        },
+        {
+            "id": "7",
+            "title": "Nhạc Trẻ Gây Nghiện",
+            "path": "assets/images/slideShow/introdution/intro3.png"
         }
     ],
     "newlyReleased": [

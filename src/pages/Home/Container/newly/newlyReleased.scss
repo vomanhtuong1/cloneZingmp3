@@ -1,0 +1,50 @@
+@import '/src/styles/base.scss';
+
+.newly{
+    .title-newly{
+        color: white;
+    }
+    .btn-container{
+        display: flex;
+        justify-content: space-between;
+        .btn-container-right{
+            .btn-all{
+                margin-left: 20px;
+            }
+            .btn-all.active{
+                margin-left: 0;
+            }            
+        }
+        
+
+    }
+
+    .btn-all{
+        font-size: 0.8rem;
+        font-weight: bold;
+        width: 6.4rem;
+        height: 1.6rem;
+        text-align: center;
+        border: 0.5px solid rgb(255, 255, 255, 0.1);
+        color: white;
+        border-radius: 1rem;
+        background-color: rgb(255,255,255,0.01);
+    }    
+
+    .btn-all.sixe{
+        border: none;
+        background-color: transparent;
+        .all{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $main-color-text;
+            
+        }
+    }
+    
+    .btn-all.active{
+        background-color: #8B45CA;
+        border: none;
+    }
+}

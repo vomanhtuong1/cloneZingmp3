@@ -18,7 +18,7 @@
 .header-container-all{
     @include flexbox(flex,space-between,center);
     height: 70px;
-    width: calc( 100% - 369px); 
+    width: calc( 100% - 379px); 
     position: fixed; 
     left: 240px; 
     top: 0; 
