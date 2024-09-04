@@ -1,0 +1,71 @@
+import './BXH.scss';
+import { useState, useEffect } from 'react';
+import { ArrowForwardIos } from '@mui/icons-material';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+function BXH() {
+    //lấy dữ liệu từ slide.json
+    var BXHApi = 'http://localhost:3001/BXH';
+    const [bXH, setBXH] = useState([]);
+
+    useEffect(() => {
+        const fetchData
+            = async () => {
+                const response = await fetch(BXHApi);
+                const data = await response.json();
+                setBXH(data);
+            };
+        fetchData();
+    }, []);
+
+    //thiết lập styles cho slider
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 700,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        adaptiveHeight: true
+    };
+
+    return (
+        <div className='BXH' style={{ marginTop: "25px" }}>
+            <div className='BXH-title'>
+                <h2 className='BXH-title-content'>BXH</h2>
+                <button className='btn-all sixe'>
+                    <div className='all'>
+                        <p>TẤT CẢ</p>
+                        <ArrowForwardIos sx={{ marginLeft: "5px", fontWeight: "300", fontSize: "1rem" }} /></div>
+                </button>
+            </div>
+
+            <div className='container-bxh-margin'>
+                <div className='container-bxh'>
+                    <Slider {...settings}>
+                        {bXH.map((itemBXH, index) => (
+                            <li key={index} className='li-bxh-container'>
+                                <img className='avatar-bxh' src={itemBXH.src} alt={itemBXH.title} />
+                                <div className='container-content-bxh'>
+                                    <div className='container-title'>
+                                        <h4 className='bxh-name-song' title={itemBXH.title}>{itemBXH.title}</h4>
+                                        <h5 className='bxh-name-singer' title={itemBXH.singer}>{itemBXH.singer}</h5>
+                                    </div>
+                                    <div className='datetime'>
+                                        <span className='stt-bxh'>#{index + 1}</span>
+                                        <h4 className='datetime-song'>{itemBXH.datetime}</h4>
+                                    </div>
+                                </div>
+                            </li>
+                        ))}
+                    </Slider>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default BXH;

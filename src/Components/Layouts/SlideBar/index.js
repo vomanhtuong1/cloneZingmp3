@@ -26,7 +26,7 @@ function Slide() {
                         </div>
                         <div className='backGround'>
                             <div>
-                                <Link to='/discover' className='link-library'>
+                                <Link to='/' className='link-library'>
                                     <WifiTetheringError sx={{ ml: '30px', mr: '10px' }} />
                                     Khám Phá
                                 </Link>

@@ -1,0 +1,29 @@
+@import '/src/styles/base.scss';
+
+.container-chill-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-chill-item{
+    margin-top: 30px;
+    @include flexbox (flex, space-between,stretch );
+    .li-chill-item{
+        width: 18%;
+        height: auto;
+        position: relative;
+        .background-chill{
+            width: 100%;
+            height: 220px;
+            border-radius: 10px;
+        }
+        .description-chill{
+            margin: 0;
+            padding-top: 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: white;
+        }
+    }
+}

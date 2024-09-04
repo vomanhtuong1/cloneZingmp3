@@ -1,0 +1,70 @@
+@import '/src/styles/base.scss';
+
+.BXH-title{
+    @include flexbox ( flex, space-between, center);
+    .BXH-title-content{
+        color: white;
+    }
+}
+
+.container-bxh-margin{
+    width: 100%;
+    height: auto;
+    .container-bxh{
+        margin-top: 20px;
+    }
+}
+
+.li-bxh-container{
+    display: flex !important;
+    justify-content: flex-start;
+    flex-grow: 1;
+    align-items: center;
+    height: 150px;
+    width: 90% !important;
+    position: relative;
+    .avatar-bxh{
+        width: 7.5rem;
+        height: 7.5rem;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    .container-content-bxh{
+        width: calc(100% - 150px);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .container-title{
+            margin-top: 15px;
+        }
+        .datetime{
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+
+
+
+.bxh-name-song{
+    color: white;
+}
+
+.bxh-name-singer, .datetime-song{
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.stt-bxh{
+    font-size: 40px;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke:1px #fff;
+    opacity: 0.5;
+}
+
+.slick-dots{
+    display: none !important;
+}

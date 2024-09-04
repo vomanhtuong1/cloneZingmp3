@@ -1,6 +1,8 @@
 import SlideShow from './Container/Carousel/slideShow';
 import NewlyRealeasedHome from './Container/newly/newlyReleased';
 import Chill from './Container/Chill/Chill.js';
+import BXH from './Container/BXH/BXH.js';
+
 
 
 function Home() {
@@ -9,6 +11,7 @@ function Home() {
             <SlideShow />
             <NewlyRealeasedHome />
             <Chill />
+            <BXH />
         </>
     );
 }
