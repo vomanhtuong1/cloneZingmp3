@@ -343,7 +343,7 @@
             "title": "Là Tại Anh Sai",
             "singer": "Châu Khải Phong",
             "time": "4:00",
-            "view": "0",
+            "view": 3,
             "path": "assets/images/newlyReleased/new1.png",
             "src": "assets/audio/audio1.mp3"
         },
@@ -352,7 +352,7 @@
             "title": "Thờ Ơ",
             "singer": "Châu Khải Phong",
             "time": "4:00",
-            "view": "0",
+            "view": 2,
             "path": "assets/images/newlyReleased/new2.png",
             "src": "assets/audio/audio3.mp3"
         },
@@ -361,7 +361,7 @@
             "title": "Nói dối",
             "singer": "MiQ & Catcheller",
             "time": "4:00",
-            "view": "0",
+            "view": 1,
             "path": "assets/images/newlyReleased/new3.png",
             "src": "assets/audio/audio3.mp3"
         },
@@ -370,7 +370,7 @@
             "title": "Đừng nói là...",
             "singer": "Ali Hoàng Dương",
             "time": "4:00",
-            "view": "0",
+            "view": 0,
             "path": "assets/images/newlyReleased/new4.png",
             "src": "assets/audio/audio3.mp3"
         },
@@ -379,7 +379,7 @@
             "title": "Đi tìm tình yêu",
             "singer": "Mono & 2pillz",
             "time": "4:00",
-            "view": "0",
+            "view": 0,
             "path": "assets/images/newlyReleased/new5.png",
             "src": "assets/audio/audio3.mp3"
         },
@@ -388,7 +388,7 @@
             "title": "Khóa Chân",
             "singer": "24k right, Mason Nguyễn, Nam Cocain, V.A",
             "time": "4:00",
-            "view": "0",
+            "view": 0,
             "path": "assets/images/newlyReleased/new6.png",
             "src": "assets/audio/audio3.mp3"
         },
@@ -397,7 +397,7 @@
             "title": "Giấc ngủ dài hạn",
             "singer": "Khiem",
             "time": "4:00",
-            "view": "0",
+            "view": 0,
             "path": "assets/images/newlyReleased/new7.png",
             "src": "assets/audio/audio3.mp3"
         },
@@ -406,7 +406,7 @@
             "title": "Bát Cơm Mặn",
             "singer": "Orange & New Amazing",
             "time": "4:00",
-            "view": "0",
+            "view": 0,
             "path": "assets/images/newlyReleased/new8.png",
             "src": "assets/audio/audio3.mp3"
         },
@@ -415,7 +415,7 @@
             "title": "Bóng Hồng Lẻ Loi",
             "singer": "Han Sara",
             "time": "4:00",
-            "view": "0",
+            "view": 0,
             "path": "assets/images/newlyReleased/new9.png",
             "src": "assets/audio/audio3.mp3"
         },
@@ -424,7 +424,7 @@
             "title": "Chỉ Đi Đến Đây Thôi",
             "singer": "Vũ Thịnh & VIAM",
             "time": "4:00",
-            "view": "0",
+            "view": 0,
             "path": "assets/images/newlyReleased/new10.png",
             "src": "assets/audio/audio3.mp3"
         },
@@ -433,7 +433,7 @@
             "title": "Ngốc Mới Khóc Một Mình",
             "singer": "Đạt Long Vinh",
             "time": "4:00",
-            "view": "0",
+            "view": 0,
             "path": "assets/images/newlyReleased/new11.png",
             "src": "assets/audio/audio3.mp3"
         },
@@ -442,7 +442,7 @@
             "title": "Luật Hấp Dẫn",
             "singer": "Minh Đinh",
             "time": "4:00",
-            "view": "0",
+            "view": 0,
             "path": "assets/images/newlyReleased/new12.png",
             "src": "assets/audio/audio3.mp3"
         }

@@ -2,6 +2,7 @@ import SlideShow from './Container/Carousel/slideShow';
 import NewlyRealeasedHome from './Container/newly/newlyReleased';
 import Chill from './Container/Chill/Chill.js';
 import BXH from './Container/BXH/BXH.js';
+import ZingChart from './Container/zingchart/zingchart.js';
 
 
 
@@ -12,6 +13,7 @@ function Home() {
             <NewlyRealeasedHome />
             <Chill />
             <BXH />
+            <ZingChart />
         </>
     );
 }

@@ -1,5 +1,6 @@
 import { ArrowBack, ArrowForward, Search, InstallDesktop, Settings } from "@mui/icons-material";
 import { Link } from "react-router-dom";
+import { AppBar } from "@mui/material";
 import './Header.scss'
 
 function Header() {

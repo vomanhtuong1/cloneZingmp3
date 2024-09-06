@@ -40,7 +40,6 @@ function NewlyRealeasedHome() {
                             <div className='container-avatar'>
                                 <img className='avatar-container' src={newSong.path} alt={newSong.title} />
                                 <PlayArrow className='playarrow' />
-
                             </div>
                             <div className='grid-container-text'>
                                 <h3 className='song-name' title={newSong.title} style={{ color: "white", fontWeight: "normal" }}>

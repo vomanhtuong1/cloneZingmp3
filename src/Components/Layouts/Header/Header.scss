@@ -15,12 +15,13 @@
 }
 
 //css header
+
 .header-container-all{
     @include flexbox(flex,space-between,center);
     height: 70px;
-    width: calc( 100% - 379px); 
+    width: calc( 83.4% - 108px); 
     position: fixed; 
-    left: 240px; 
+    left: 16.6%; 
     top: 0; 
     right: 0; 
     background-color: rgba(255, 255, 255,0.01);
@@ -29,6 +30,13 @@
     min-width: 660px; 
     transition: right .4s; 
     padding: 0 59px;
+    
+}
+@media (max-width: 1199.5px) {
+    .header-container-all{
+        left: 8.34%;
+        width: calc( 91.66% - 108px);
+    }
 }
 
 .content{

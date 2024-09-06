@@ -1,11 +1,13 @@
 @import '/src/styles/base.scss';
 
 .newly{
+    margin-top: 30px;
     .title-newly{
         color: white;
     }
     .btn-container{
         display: flex;
+        margin-top: 30px;
         margin-bottom: 2rem;
         justify-content: space-between;
         .btn-container-right{

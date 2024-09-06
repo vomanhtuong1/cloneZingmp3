@@ -19,7 +19,10 @@
     display: flex !important;
     justify-content: flex-start;
     flex-grow: 1;
+    padding-right: 10px;
+    border-radius: 10px;
     align-items: center;
+    background-color: rgb(255, 255, 255, 0.1);
     height: 150px;
     width: 90% !important;
     position: relative;
@@ -67,4 +70,8 @@
 
 .slick-dots{
     display: none !important;
+}
+
+.slick-arror,.slick-next{
+    display: none !important ;
 }

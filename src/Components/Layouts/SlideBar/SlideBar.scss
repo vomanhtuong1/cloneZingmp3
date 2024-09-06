@@ -14,9 +14,10 @@ $scroll-thumb-bg: hsla(0, 0%, 100%, 0.3);
 .container-all-slideBar{
     height: 100vh;
     z-index: 100;
-    width: 240px;
+    width: 100%;
     background-color: $primary-color;
     height: 100%;
+    position: relative;
 }
 
 .relative-container-silebar{
@@ -28,7 +29,7 @@ $scroll-thumb-bg: hsla(0, 0%, 100%, 0.3);
 
 //logo-zingmp3
 .logo-fixed{
-    width: 240px;
+    width: 100%;
     height: 70px;
     position: relative;
     background-color: $primary-color;
@@ -40,13 +41,18 @@ $scroll-thumb-bg: hsla(0, 0%, 100%, 0.3);
         height: 40px;
         padding: 15px 0;
     }
+    .icon2{
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+    }
 }
 
 .container-case-slideBar{
     position: relative;
     background-color: $primary-color;
     margin-bottom: 16px;
-    width: 240px;
+    width: 100%;
     height: auto;
     z-index: 100;
 }
@@ -139,6 +145,7 @@ $scroll-thumb-bg: hsla(0, 0%, 100%, 0.3);
 .container-three-case-top{
     position: relative;
     margin-bottom: 16px;
+    margin-right: 20px;
 }
 
 
@@ -182,10 +189,12 @@ $scroll-thumb-bg: hsla(0, 0%, 100%, 0.3);
 }
 
 .fix{
-    width: 240px;
+    width: 100%;
     position: absolute;
     bottom: 0;
     left: 0px;
+    justify-content: center;
+    align-items: center;
     z-index: 101;
     background-color:$primary-color ;
 }
