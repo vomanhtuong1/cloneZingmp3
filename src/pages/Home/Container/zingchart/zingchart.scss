@@ -1,0 +1,35 @@
+@import '/src/styles/base.scss';
+
+.container-zing-chart{
+    background-color: #35124F;
+    padding: 10px 25px 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.title-zingchart{
+    background: linear-gradient(179deg, #FE915A,#D0559E, #6195E6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 30px 0;
+}
+
+.zingchart-bxh-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $backgoundColor;
+    margin-bottom: 25px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.avatar-zingchart{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
