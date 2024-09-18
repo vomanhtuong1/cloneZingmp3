@@ -1,7 +1,7 @@
 import './newlyReleased.scss';
 import { useEffect, useState } from 'react';
 import { MoreHoriz } from '@mui/icons-material';
-import { ArrowForwardIos, PlayArrow } from '@mui/icons-material';
+import { ArrowForwardIos, PlayArrow, FavoriteBorder } from '@mui/icons-material';
 
 function NewlyRealeasedHome() {
     //lấy dữ liệu từ slide.json
@@ -51,6 +51,7 @@ function NewlyRealeasedHome() {
                                     fontWeight: "normal", fontSize: "14px"
                                 }}>{newSong.singer}</h4>
                             </div>
+                            <FavoriteBorder />
                             <MoreHoriz />
                         </li>
                     ))}

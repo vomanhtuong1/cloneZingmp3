@@ -12,8 +12,35 @@
     height: auto;
     .container-bxh{
         margin-top: 20px;
+        position: relative;
     }
 }
+
+//có thể css chung
+.container-btn{
+    width: 100%;
+    @include flexbox (flex, space-between, center);
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 101;
+    .btn-slide{
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    .btn-slide.prev{
+        margin-left: -20px;
+    }
+    .btn-slide.next{
+        margin-right: -4px;
+    }
+}
+//có thể css chung
 
 .li-bxh-container{
     display: flex !important;
@@ -26,11 +53,16 @@
     height: 150px;
     width: 90% !important;
     position: relative;
-    .avatar-bxh{
+    .container-scale{
         width: 7.5rem;
         height: 7.5rem;
         margin-right: 20px;
         margin-left: 10px;
+        overflow: hidden;
+    }
+    .avatar-bxh{
+        width: 7.5rem;
+        height: 7.5rem;
     }
     .container-content-bxh{
         width: calc(100% - 150px);
@@ -50,7 +82,10 @@
     }
 }
 
-
+.container-scale:hover>.avatar-bxh{
+    transition: transform 0.5s;
+    transform:  scale(1.2);
+}
 
 .bxh-name-song{
     color: white;
@@ -72,6 +107,6 @@
     display: none !important;
 }
 
-.slick-arror,.slick-next{
+.slick-arror,.slick-next, .slick-prev{
     display: none !important ;
 }

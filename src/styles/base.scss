@@ -29,3 +29,12 @@ $main-color-header:hsla(0, 0%, 100%, 0.1);
 button{
     border: none;
 }
+
+@keyframes scaleUp {
+    from {
+      transform: scale(1); /* Kích thước ban đầu */
+    }
+    to {
+      transform: scale(1.1); /* Tăng lên 1.1 lần */
+    }
+  }

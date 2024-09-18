@@ -62,7 +62,9 @@ function Slide() {
                                     <Radio sx={{ ml: '30px', mr: '10px' }} />
                                     <Box sx={{ display: { xs: 'none', sm: 'none', md: 'none', lg: 'block' } }}>
                                         Radio
-                                        <img className='live' src="https://zjs.zmdcdn.me/zmp3-desktop/dev/147506/static/media/live-tag.e25dd240.svg" alt=""></img>
+                                        <img className='live'
+                                            src="https://zjs.zmdcdn.me/zmp3-desktop/dev/147506/static/media/live-tag.e25dd240.svg"
+                                            alt=""></img>
                                     </Box>
                                 </Link>
                             </div>

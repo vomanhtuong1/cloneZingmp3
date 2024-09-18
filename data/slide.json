@@ -202,25 +202,25 @@
             "id": "2",
             "title": "TOP 100 POP Âu Mỹ",
             "singer": "Taylor Swift, Ariana Grande, Sabrina Carpenter,...",
-            "src": "assets/images/Top100/top1.png"
+            "src": "assets/images/Top100/top2.png"
         },
         {
             "id": "3",
             "title": "TOP 100 EDM",
             "singer": "Alan Walker, K-391, Martin Garrix,...",
-            "src": "assets/images/Top100/top1.png"
+            "src": "assets/images/Top100/top3.png"
         },
         {
             "id": "4",
             "title": "TOP 100 Nhạc Trữ Tình",
             "singer": "Quỳnh Trang, Dương Hồng Loan, Mạnh Quỳnh,...",
-            "src": "assets/images/Top100/top1.png"
+            "src": "assets/images/Top100/top4.png"
         },
         {
             "id": "5",
             "title": "TOP 100 Hàn Quốc",
             "singer": "BABAY MOSTER, Asepa, ILLIT,...",
-            "src": "assets/images/Top100/top1.png"
+            "src": "assets/images/Top100/top5.png"
         }
     ],
     "ablumhot": [

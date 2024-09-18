@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
+import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./carousel.scss";
+import "../BXH/BXH.scss";
 
 
 function SlideShow() {
@@ -36,6 +38,14 @@ function SlideShow() {
             <div className='slide-items'>
 
                 <div className='item-container'>
+                    <div className='container-btn'>
+                        <div className='btn-slide prev'>
+                            <ArrowBackIos sx={{ color: 'white' }} />
+                        </div>
+                        <div className='btn-slide next next-carousel'>
+                            <ArrowForwardIos sx={{ color: 'white' }} />
+                        </div>
+                    </div>
                     <Slider {...settings} >
                         {slide.map((intro, index) => (
                             <div key={index} className='slide-item'>

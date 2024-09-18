@@ -1,0 +1,42 @@
+@import '/src/styles/base.scss';
+
+.album-hot{
+    margin-top: 30px;
+    width: 100%;
+    .li-album-hot{
+        width: 95% !important;
+        height: auto;
+        .container-avatar-album{
+            border-radius: 10px;
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+        .avatar-album{
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+        h4{
+            margin-top: 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: white;
+        }
+        h5{
+            color: rgba(255, 255, 255, 0.3);
+            font-weight: normal;
+        }
+    }
+}
+
+.album-hot-title{
+    color: white;
+    margin-bottom:30px ;
+}
+
+.container-avatar-album:hover>.avatar-album{
+    transition: transform 1s;
+    transform: scale(1.1);
+}

@@ -27,3 +27,33 @@
         }
     }
 }
+
+.container-scale{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.background-chill:hover {
+    transition: transform 1s;
+    transform:  scale(1.1);
+}
+
+.container-scale:hover>.container-list-icon{
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+
+.container-list-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    opacity: 0;
+    height: auto;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+    
+}

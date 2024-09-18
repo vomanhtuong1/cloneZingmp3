@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Slide from "./SlideBar";
 import { Grid } from "@mui/material";
+import MusicPlayer from "./MusicPlayer/MusicPlayer";
 
 function Layouts({ children }) {
     return (
@@ -14,7 +15,9 @@ function Layouts({ children }) {
                 <div className="content">
                     {children}</div>
             </Grid>
-
+            <Grid item xs={12} sm={12} md={12} lg={12}>
+                <MusicPlayer />
+            </Grid>
         </Grid>
     );
 }

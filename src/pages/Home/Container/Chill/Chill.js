@@ -1,6 +1,7 @@
 import './Chill.scss';
-import { ArrowForwardIos } from '@mui/icons-material';
+import { ArrowForwardIos, FavoriteBorder, PlayCircleOutline, MoreHoriz } from '@mui/icons-material';
 import { useState, useEffect } from 'react';
+import { IconButton } from '@mui/material';
 
 function Chill() {
     //lấy dữ liệu từ slide.json
@@ -32,7 +33,20 @@ function Chill() {
                 <div className='container-chill-item'>
                     {chill.map((item, index) => (
                         <li key={index} className='li-chill-item'>
-                            <img className='background-chill' src={item.path} alt={item.title} />
+                            <div className='container-scale'>
+                                <img className='background-chill' src={item.path} alt={item.title} />
+                                <div className='container-list-icon'>
+                                    <IconButton title='Thêm vào thư viện' sx={{ padding: '0' }}>
+                                        <FavoriteBorder sx={{ color: 'white' }} />
+                                    </IconButton>
+                                    <IconButton title='' sx={{ padding: '0' }} >
+                                        <PlayCircleOutline sx={{ color: 'white', margin: '0 10px', fontSize: '50px' }} />
+                                    </IconButton>
+                                    <IconButton title='Khác' sx={{ padding: '0' }}>
+                                        <MoreHoriz sx={{ color: 'white' }} />
+                                    </IconButton>
+                                </div>
+                            </div>
                             <h4 className='description-chill'>{item.title}</h4>
                         </li>
                     ))}

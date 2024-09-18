@@ -1,6 +1,6 @@
 import './BXH.scss';
 import { useState, useEffect } from 'react';
-import { ArrowForwardIos } from '@mui/icons-material';
+import { ArrowForwardIos, ArrowBackIos, PlayCircleOutline } from '@mui/icons-material';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -45,10 +45,26 @@ function BXH() {
 
             <div className='container-bxh-margin'>
                 <div className='container-bxh'>
+                    <div className='container-btn'>
+                        <div className='btn-slide prev'>
+                            <ArrowBackIos sx={{ color: 'white' }} />
+                        </div>
+                        <div className='btn-slide next'>
+                            <ArrowForwardIos sx={{ color: 'white' }} />
+                        </div>
+                    </div>
                     <Slider {...settings}>
                         {bXH.map((itemBXH, index) => (
                             <li key={index} className='li-bxh-container'>
-                                <img className='avatar-bxh' src={itemBXH.src} alt={itemBXH.title} />
+                                <div className='container-scale'>
+                                    <img className='avatar-bxh' src={itemBXH.src} alt={itemBXH.title} />
+                                    <div className='container-list-icon'>
+                                        <PlayCircleOutline sx={{
+                                            color: 'white',
+                                            fontSize: '50px'
+                                        }} />
+                                    </div>
+                                </div>
                                 <div className='container-content-bxh'>
                                     <div className='container-title'>
                                         <h4 className='bxh-name-song' title={itemBXH.title}>{itemBXH.title}</h4>
