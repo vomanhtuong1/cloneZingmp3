@@ -13,6 +13,11 @@
     .container-bxh{
         margin-top: 20px;
         position: relative;
+        .slick-slider{
+            .slick-next{
+                right: 0;
+            }
+        }
     }
 }
 
@@ -107,6 +112,12 @@
     display: none !important;
 }
 
+.slick-prev:before, .slick-next:before {
+    font-size: 50px;
+}
 .slick-arror,.slick-next, .slick-prev{
-    display: none !important ;
+    //display: none !important ;
+    z-index: 1;
+    width: auto;
+    height: auto;
 }

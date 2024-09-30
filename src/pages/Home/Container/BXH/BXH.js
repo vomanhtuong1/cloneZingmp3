@@ -20,13 +20,30 @@ function BXH() {
         fetchData();
     }, []);
 
+    //điều chỉnh slide show khi kích thước trình duyệt thay đổi
+    const [slidesToShowBXH, setSlidesToShowBXH] = useState(3);
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 1350) {
+                setSlidesToShowBXH(2);
+            } else {
+                setSlidesToShowBXH(3);
+            }
+        };
+        window.addEventListener('resize', handleResize);
+        handleResize(); // Kiểm tra ngay khi component được mount
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     //thiết lập styles cho slider
     const settings = {
         dots: true,
         infinite: true,
         speed: 700,
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: slidesToShowBXH,
+        slidesToScroll: slidesToShowBXH,
         autoplay: true,
         autoplaySpeed: 3000,
         adaptiveHeight: true
@@ -45,14 +62,14 @@ function BXH() {
 
             <div className='container-bxh-margin'>
                 <div className='container-bxh'>
-                    <div className='container-btn'>
+                    {/*<div className='container-btn'>
                         <div className='btn-slide prev'>
                             <ArrowBackIos sx={{ color: 'white' }} />
                         </div>
                         <div className='btn-slide next'>
                             <ArrowForwardIos sx={{ color: 'white' }} />
                         </div>
-                    </div>
+                    </div>*/}
                     <Slider {...settings}>
                         {bXH.map((itemBXH, index) => (
                             <li key={index} className='li-bxh-container'>

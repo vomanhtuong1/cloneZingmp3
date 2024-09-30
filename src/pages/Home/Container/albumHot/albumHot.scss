@@ -3,6 +3,11 @@
 .album-hot{
     margin-top: 30px;
     width: 100%;
+    .slick-slider{
+        .slick-arrow{
+            display: none !important;
+        }
+    }
     .li-album-hot{
         width: 95% !important;
         height: auto;

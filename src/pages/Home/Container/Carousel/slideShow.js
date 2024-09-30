@@ -22,22 +22,41 @@ function SlideShow() {
         fetchData();
     }, []);
 
+    //điều chỉnh slide show khi kích thước trình duyệt thay đổi
+    const [slidesToShow, setSlidesToShow] = useState(3);
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 1500) {
+                setSlidesToShow(2);
+            } else {
+                setSlidesToShow(3);
+            }
+        };
+        window.addEventListener('resize', handleResize);
+        handleResize(); // Kiểm tra ngay khi component được mount
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     //thiết lập styles cho slider
     const settings = {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: slidesToShow,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+
     };
+
     return (
         <div className='slide-item-container'>
             <div className='slide-items'>
 
-                <div className='item-container'>
+                <div className='item-container'>{/*
                     <div className='container-btn'>
                         <div className='btn-slide prev'>
                             <ArrowBackIos sx={{ color: 'white' }} />
@@ -45,7 +64,7 @@ function SlideShow() {
                         <div className='btn-slide next next-carousel'>
                             <ArrowForwardIos sx={{ color: 'white' }} />
                         </div>
-                    </div>
+                    </div>*/}
                     <Slider {...settings} >
                         {slide.map((intro, index) => (
                             <div key={index} className='slide-item'>

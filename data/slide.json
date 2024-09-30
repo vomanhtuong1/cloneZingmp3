@@ -446,5 +446,79 @@
             "path": "assets/images/newlyReleased/new12.png",
             "src": "assets/audio/audio3.mp3"
         }
+    ],
+    "artist": [
+        {
+            "id": 1,
+            "name": "Châu Khải Phong",
+            "src": "assets/images/slideShow/Artist/ChauKhaiPhong.png",
+            "describe": "Ít ai biết rằng Châu Khải Phong phải trải qua nhiều khó khăn cũng như tốn nhiều mồ hôi và nước mắt để có được danh tiếng và ánh hào quang như ngày hôm nay. Châu Khải Phong xuất thân từ gia đình nông nghiệp ở miền Trung. Từ nhỏ, nam ca sĩ đã phải phụ giúp gia đình bằng cách vừa học vừa đi làm vì hoàn cảnh không được tốt. Sớm nuôi dưỡng một tâm hồn và niềm đam mê âm nhạc, Châu Khải Phong đã bắt đầu tham gia vào các cuộc thi âm nhạc của Việt Nam để chứng minh khả năng của bản thân. Anh còn từng lặn lội vào Sài Gòn để thi Sao Mai Điểm Hẹn, nhưng khi ấy may mắn đã không mỉm cười với Châu Khải Phong. Châu Khải Phong từng nổi lên như một hiện tượng với bản hit Ngắm Hoa Lệ Rơi. Có lẽ chính chủ nhân của Ngắm Hoa Lệ Rơi cũng không ngờ rằng ca khúc của mình lại được chào đón nồng nhiệt và vang lên khắp nơi như thế. Đồng thời, Ngắm Hoa Lệ Rơi còn được công nhận là Bài hát của năm và Châu Khải Phong cũng nhận được nút vàng trên Youtube. Sau khi tạo được tiếng vang lớn, Châu Khải Phong tiếp tục cho ra mắt nhiều sản phẩm âm nhạc tiếp theo. Mặc dù được yêu mến với dòng nhạc ballad trữ tình nhưng để bản thân không rơi vào trạng thái một màu khiến khán giả nhàm chán, Châu Khải Phong đã cố gắng thay đổi trong cả phong cách âm nhạc lẫn hình tượng của bản thân. Dù bước đầu lập nghiệp gặp không ít khó khăn nhưng Châu Khải Phong vẫn cố gắng theo đuổi con đường ca hát bằng sự nhiệt huyết của mình. Sau quá trình lao động nghiêm túc cùng những sản phẩm âm nhạc tâm huyết, Châu Khải Phong đã đạt được thành công và trở thành 'idol giới trẻ'. Sau nhiều cố gắng, nỗ lực thì anh cũng đã được đền đáp xứng đáng."
+        },
+        {
+            "id": 2,
+            "name": "24K Right",
+            "src": "assets/images/slideShow/Artist/24Kright.jpg",
+            "describe": null
+        },
+        {
+            "id": 3,
+            "name": "Ali Hoàng Dương",
+            "src": "assets/images/slideShow/Artist/AliHoangDuong.png",
+            "describe": "Sinh ra trong một gia đình không có truyền thống nghệ thuật nhưng Hoàng Dương đã đam mê ca hát và nhảy múa từ nhỏ. Dù có ngoại hình cùng giọng hát rất tốt nhưng Hoàng Dương thừa nhận mình không có duyên với các cuộc thi ca hát. Cụ thể là Giọng hát Việt 2015 và Nhân tố bí ẩn 2016. Phải đến Giọng hát Việt 2017, Ali Hoàng Dương mới thật sự tỏa sáng và được nhiều khán giả biết đến. Ali Hoàng Dương ngày càng trưởng thành hơn trong phong cách âm nhạc lẫn hình ảnh. Tuy nhiên, Ali thừa nhận vì theo đuổi dòng nhạc điện tử, không chạy theo thị hiếu thích nghe ballad của giới trẻ nên anh chưa thực sự thành công như mong đợi. 2019, Ali Hoàng Dương đảm nhận vị trí huấn luyện viên của The Voice Kids cùng Lưu Thiên Hương."
+        },
+        {
+            "id": 4,
+            "name": "Đạt Long Vinh",
+            "src": "assets/images/slideShow/Artist/DatLongVinh.jpg",
+            "describe": "Đạt Long Vinh sinh ra và lớn lên tại thành phố Vĩnh Long, hoạt động đa dạng trong lĩnh vực âm nhạc từ năm 2017, chính thức gia nhập độc quyền công ty giải trí CT Media vào đầu năm 2021 bắt đầu con đường âm nhạc chuyên nghiệp. Là một ca nhạc sĩ có chất giọng riêng biệt cùng nhiều sáng tác mới, hứa hẹn mang đến khán thính giả nhiều sản phẩm âm nhạc chất lượng."
+        },
+        {
+            "id": 5,
+            "name": "Han SaRa",
+            "src": "assets/images/slideShow/Artist/Hansara.png",
+            "describe": "Năm 10 tuổi, Han Sara qua Việt Nam cùng gia đình và bắt đầu học tiếng Việt. Năm 17 tuổi, Han Sara tham gia The Voice bằng ca khúc tiếng Hàn 'Haru Haru', gây ấn tượng cho ban giám khảo và khán giả bằng giọng hát cùng vẻ ngoài dễ thương. Sau cuộc thi, Han Sara đầu quân cho 6th Sense Entertainment dưới sự quản lý của Đông Nhi và Ông Cao Thắng. Cô debut bằng ca khúc 'Tớ Thích Cậu' và nhận được nhiều lời khen. Năm 2020, Han Sara trở lại hình ảnh trưởng thành và quyến rũ hơn trong 'Let Me Go' (ft. RTEE). Hàng loạt những sản phẩm sau đó như “Vì Yêu Là Nhớ”, “Tận Cùng Nỗi Nhớ” (với Will), “Đếm Cừu” (với Kay Trần)... với sự chăm chuốt về ca từ, giai điệu cũng như MVnên được công chúng đón nhận tích cực."
+        },
+        {
+            "id": 6,
+            "name": "Khiem",
+            "src": "assets/images/slideShow/Artist/Khiem.png",
+            "describe": null
+        },
+        {
+            "id": 7,
+            "name": "Minh Đinh",
+            "src": "assets/images/slideShow/Artist/MinhDinh.png",
+            "describe": null
+        },
+        {
+            "id": 8,
+            "name": "MiQ",
+            "src": "assets/images/slideShow/Artist/MiQ.jpg",
+            "describe": null
+        },
+        {
+            "id": 9,
+            "name": "Mono",
+            "src": "assets/images/slideShow/Artist/Mono.png",
+            "describe": null
+        },
+        {
+            "id": 10,
+            "name": "Orange",
+            "src": "assets/images/slideShow/Artist/Orange.png",
+            "describe": "Là ca sĩ có chất giọng đầy nội lực cùng gu âm nhạc trẻ trung được đông đảo khán giả trẻ yêu thích sau ca khúc debut “Người Lạ Ơi”. Hiện Orange là một trong số nữ ca sĩ có khả năng sáng tác tốt thuộc thế hệ Gen Z nổi bật tại Việt Nam với loạt hot hit: Khi Em Lớn (ft Hoàng Dũng), Em Hát Ai Nghe do cô chấp bút đã chạm tới trái tim công chúng. Ngoài ra, Orange còn là giọng hát được các nhà làm phim yêu thích khi sở hữu 2 bài nhạc phim triệu view và trở thành bài hát hiện tượng trên mạng xã hội."
+        },
+        {
+            "id": 11,
+            "name": "VIAM",
+            "src": "assets/images/slideShow/Artist/VIAM.png",
+            "describe": null
+        },
+        {
+            "id": 12,
+            "name": "Vũ Thịnh",
+            "src": "assets/images/slideShow/Artist/VuThinh.png",
+            "describe": null
+        }
     ]
 }

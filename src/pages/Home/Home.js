@@ -11,6 +11,7 @@ import HeardRecently from './Container/heardRecently/heardRecently.js';
 import { useEffect, useState } from 'react';
 
 import './Home.scss'
+import ZingChartChild from '../../Components/Component/zingchartchild.js';
 
 
 
@@ -38,7 +39,7 @@ function Home() {
             <NewlyRealeasedHome />
             <Chill />
             <BXH />
-            <ZingChart />
+            <ZingChartChild all={3} three={3} size1={5} size2={7} style="block" />
             <div className='container-list'>
                 <div className='container-item'>
                     <img className='zing-chart-bxh VN' src='assets/images/slideShow/category/cate1.png' alt='' />
