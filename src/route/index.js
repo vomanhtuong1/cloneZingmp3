@@ -6,6 +6,7 @@ import radio from "../pages/radio";
 import top100 from "../pages/top100";
 import topicAndGenre from "../pages/topicAndGenre";
 import zingchart from "../pages/zingchart";
+import InforArtist from "../pages/infomationArtist/infoArtist";
 
 //public Route
 const publicRoute = [
@@ -17,6 +18,7 @@ const publicRoute = [
     { path: "/top100", page: top100, layout: null },
     { path: "/topicandgenre", page: topicAndGenre, layout: null },
     { path: "/zingchart", page: zingchart, layout: null },
+    { path: "/infomation/:id", page: InforArtist, layout: null },
 ];
 
 export default publicRoute;

@@ -39,7 +39,7 @@ function Home() {
             <NewlyRealeasedHome />
             <Chill />
             <BXH />
-            <ZingChartChild all={3} three={3} size1={5} size2={7} style="block" />
+            <ZingChartChild all={3} three={3} size1={5} size2={7} style="block" stylesBox="none" />
             <div className='container-list'>
                 <div className='container-item'>
                     <img className='zing-chart-bxh VN' src='assets/images/slideShow/category/cate1.png' alt='' />

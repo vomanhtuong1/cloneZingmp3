@@ -1,0 +1,50 @@
+@import '/src/styles/base.scss';
+
+.avatar-artist{
+    background-color: rgba(41, 21, 71, 0.8);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(50px);
+    display: block;
+}
+
+.avatar-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    .avatar-singer-info{
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .infomation-singer{
+        .name-singer{
+            display: flex;
+            align-items: center;
+        }
+        .follower-of-singer{
+            display: flex;
+            margin-top: 20px;
+            align-items: center;
+            h3{
+                color: white;
+                font-weight: 400;
+                font-size: 17px;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+.list-of-artist{
+    margin-top: 70px;
+    height: 500px;
+    display: flex;
+    
+}

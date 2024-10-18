@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import 'chart.js/auto';
 import { Bar } from 'react-chartjs-2';
-import { PlayCircle } from "@mui/icons-material";
+import { PlayCircle, MicExternalOn, FavoriteBorder, MoreHoriz } from "@mui/icons-material";
 import { Box, Grid, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import '../../pages/Home/Container/zingchart/zingchart.scss'
@@ -79,6 +79,29 @@ function ZingChartChild(props) {
                                     </Box>
                                 </Box>
                                 <span style={{ display: `${props.style}` }} className="view-song">{viewsong[index]}</span>
+                                <div style={{ display: `${props.stylesBox}` }}>
+                                    <div style={{
+                                        width: '40px', height: '40px', backgroundColor: 'rgba(255, 255, 255, 0.3)',
+                                        borderRadius: '50%', marginRight: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center'
+                                    }}>
+                                        <MicExternalOn sx={{ color: 'white', borderRadius: '50%' }} />
+
+                                    </div>
+                                    <div style={{
+                                        width: '40px', height: '40px', backgroundColor: 'rgba(255, 255, 255, 0.3)',
+                                        borderRadius: '50%', marginRight: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center'
+                                    }}>
+                                        <FavoriteBorder sx={{ color: 'white', borderRadius: '50%' }} />
+
+                                    </div>
+                                    <div style={{
+                                        width: '40px', height: '40px', backgroundColor: 'rgba(255, 255, 255, 0.3)',
+                                        borderRadius: '50%', marginRight: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center'
+                                    }}>
+                                        <MoreHoriz sx={{ color: 'white', borderRadius: '50%' }} />
+
+                                    </div>
+                                </div>
                             </li>
                         ))}
                     </Box>

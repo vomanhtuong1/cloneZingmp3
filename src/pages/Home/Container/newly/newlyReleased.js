@@ -1,6 +1,7 @@
 import './newlyReleased.scss';
 import { useEffect, useState } from 'react';
 import { MoreHoriz } from '@mui/icons-material';
+import ArtistIF from '../../../../Components/Component/artistIF';
 import { ArrowForwardIos, PlayArrow, FavoriteBorder } from '@mui/icons-material';
 
 function NewlyRealeasedHome() {
@@ -46,10 +47,7 @@ function NewlyRealeasedHome() {
                                     {newSong.title}
                                     <span className='premium'></span>
                                 </h3>
-                                <h4 className='singer-name' title={newSong.singer} style={{
-                                    color: "rgb(255, 255, 255, 0.3)",
-                                    fontWeight: "normal", fontSize: "14px"
-                                }}>{newSong.singer}</h4>
+                                <ArtistIF id={index + 1} name={newSong.singer} />
                             </div>
                             <FavoriteBorder />
                             <MoreHoriz />
@@ -59,6 +57,10 @@ function NewlyRealeasedHome() {
             </div>
         </div>
     );
+    /* <h4 className='singer-name' title={newSong.singer} style={{
+                                    color: "rgb(255, 255, 255, 0.3)",
+                                    fontWeight: "normal", fontSize: "14px"
+                                }}>{newSong.singer}</h4> */
 }
 
 export default NewlyRealeasedHome;
